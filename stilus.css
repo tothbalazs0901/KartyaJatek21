@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+main{
+    max-width: 800px;
+    display: grid;
+    grid-template-areas:
+        "h h h h h h"
+        "n n n n n n"
+        "g a a a a m"
+        "f f f f f f";
+}
+
+header{
+    grid-area: h;
+    border: 1px solid gray;
+}
+
+nav{
+     grid-area: n;
+     border: 1px solid gray;
+}
+
+article{
+     grid-area: a;
+     border: 1px solid gray;
+}
+
+#mi{
+     grid-area: m;
+     border: 1px solid gray;
+}
+#gep{
+     grid-area: g;
+     border: 1px solid gray;
+}
+footer{
+     grid-area: f;
+     border: 1px solid gray;
+}
+
+.kartya{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.kartya img{
+    width: 100%;
+}
+
+#jatekter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
